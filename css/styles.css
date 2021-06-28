@@ -1,0 +1,32 @@
+body, header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px; 
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 460px;
+    overflow: hidden;
+}
+
+.img-wrapper{
+    padding: 10px;  
+}
+
+img{
+    width: 100% ;
+    height: auto;
+   
+}
+
+p{
+    padding: 15px 5px 15px 5px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
